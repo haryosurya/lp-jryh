@@ -1,6 +1,6 @@
 import React from 'react';
 
-const FeaturesOne = () => {
+const P15 = () => {
         return (
             <div className="cta-three">
 
@@ -18,7 +18,7 @@ const FeaturesOne = () => {
                                                 <div className="cta-three__box-wrap">
                                                     <div className="cta-three__box">
                                                         <div className="cta-three__box-icon">
-                                                            <i className="fa fa-user"></i>
+                                                            <i className="fa fa-donate"></i>
                                                         </div>
                                                         <div className="cta-three__box-content">
                                                             <p>Ribuan pedagang lain yang bernasib sama menunggu uluran tangan Anda untuk dilarisi dagangannya. Mereka adalah manusia mulia yang tetap berusaha tanpa meminta-minta. </p>
@@ -28,7 +28,7 @@ const FeaturesOne = () => {
 
                                                     <div className="cta-three__box">
                                                         <div className="cta-three__box-icon">
-                                                            <i className="zimed-icon-training"></i>
+                                                            <i className="fa fa-hand-holding-heart"></i>
                                                         </div>
 
                                                         <div className="cta-three__box-content">
@@ -38,7 +38,7 @@ const FeaturesOne = () => {
                                                     </div>
                                                 </div>
 
-                                                <a href="#" className="thm-btn cta-three__btn">Discover More</a>
+                                                <a href="#" className="thm-btn banner-one__btn scroll-to-target">Donasi Sekarang</a>
                                             </div>
 
                                         </div>
@@ -49,4 +49,4 @@ const FeaturesOne = () => {
 
         )
 }
-export default FeaturesOne;
+export default P15;

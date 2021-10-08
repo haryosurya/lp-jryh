@@ -57,22 +57,9 @@ const P14 = () => {
                                         </div>
 
                                         <div className="blog-one__content">
-                                            <ul className="blog-one__meta list-unstyled">
-                                                <li><a href="#"><i className="far fa-clock"></i> 20 Feb</a></li>
-                                                <li><a href="#"><i className="far fa-comments"></i> 2 Comments</a></li>
-                                            </ul>
-
-                                            <h3>
-                                                <Link href="/blog-details">
-                                                    <a>Pre and post launch mobile app marketing
-                                                        pitfalls to avoid
-                                                    </a>
-                                                </Link>
+                                            <h3>Gudeg Bu Santem
                                             </h3>
-                                            <Link href="/blog-details">
-                                            <a className="blog-one__link"><i
-                                                className="zimed-icon-right-arrow"></i></a>
-                                            </Link>
+                                            <span>“Jualan saya sepi, mas.”</span>
                                         </div>
 
                                     </div>
@@ -88,22 +75,13 @@ const P14 = () => {
                                         </div>
 
                                         <div className="blog-one__content">
-                                            <ul className="blog-one__meta list-unstyled">
-                                                <li><a href="#"><i className="far fa-clock"></i> 20 Feb</a></li>
-                                                <li><a href="#"><i className="far fa-comments"></i> 2 Comments</a></li>
-                                            </ul>
 
                                             <h3>
-                                                <Link href="/blog-details">
-                                                    <a>Pre and post launch mobile app marketing
-                                                        pitfalls to avoid
-                                                    </a>
-                                                </Link>
+                                            Lotek Bu Nyami
                                             </h3>
-                                            <Link href="/blog-details">
-                                            <a className="blog-one__link"><i
-                                                className="zimed-icon-right-arrow"></i></a>
-                                            </Link>
+                                           <p>
+                                           “Yang penting halal, gak macem-macem buat saya cukup.”
+                                           </p>
                                         </div>
 
                                     </div>
@@ -119,22 +97,13 @@ const P14 = () => {
                                         </div>
 
                                         <div className="blog-one__content">
-                                            <ul className="blog-one__meta list-unstyled">
-                                                <li><a href="#"><i className="far fa-clock"></i> 20 Feb</a></li>
-                                                <li><a href="#"><i className="far fa-comments"></i> 2 Comments</a></li>
-                                            </ul>
 
                                             <h3>
-                                                <Link href="/blog-details">
-                                                    <a>Pre and post launch mobile app marketing
-                                                        pitfalls to avoid
-                                                    </a>
-                                                </Link>
+                                            Jamu Bu Kasih
                                             </h3>
-                                            <Link href="/blog-details">
-                                            <a className="blog-one__link"><i
-                                                className="zimed-icon-right-arrow"></i></a>
-                                            </Link>
+                                           <p>
+                                           “Setelah corona, penghasilan saya sudah gak pasti.”
+                                           </p>
                                         </div>
 
                                     </div>
@@ -150,22 +119,13 @@ const P14 = () => {
                                         </div>
 
                                         <div className="blog-one__content">
-                                            <ul className="blog-one__meta list-unstyled">
-                                                <li><a href="#"><i className="far fa-clock"></i> 20 Feb</a></li>
-                                                <li><a href="#"><i className="far fa-comments"></i> 2 Comments</a></li>
-                                            </ul>
 
                                             <h3>
-                                                <Link href="/blog-details">
-                                                    <a>Pre and post launch mobile app marketing
-                                                        pitfalls to avoid
-                                                    </a>
-                                                </Link>
+                                            Bubur Kacang Ijo Pak Abin
                                             </h3>
-                                            <Link href="/blog-details">
-                                            <a className="blog-one__link"><i
-                                                className="zimed-icon-right-arrow"></i></a>
-                                            </Link>
+                                           <p>
+                                           “Kalau gak habis, saya bagiin aja ke yang butuh.”
+                                           </p>
                                         </div>
 
                                     </div>
@@ -173,8 +133,26 @@ const P14 = () => {
                                 </div>
 
                             </div>
-                            
-                            
+                            <div className="box">
+                                <div className="wow fadeInLeft" data-wow-duration="1500ms">
+                                    <div className="blog-one__single">
+                                        <div className="blog-one__image">
+                                            <img src="/images/blog/blog-1-1.jpg" alt=""/>
+                                        </div>
+                                        <div className="blog-one__content">
+                                            <h3>
+                                            Bambu Mbah Min
+                                            </h3>
+                                           <p>
+                                           “Pokoknya sebisa-bisanya kita usaha.”
+                                           </p>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
                         
                         </Swiper>
                         

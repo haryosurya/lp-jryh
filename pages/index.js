@@ -24,19 +24,20 @@ import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <Layout pageTitle="jariyah-">
-    <Navbar/>
-    <Banner/>
-    <Brands/>
-    <Services />
-    <FeaturesOne />
-    <FeaturesTwo />
-    <Video />
-    <Counter />
-    <Pricing />
-    <Screenshots />
-    <Footer/>
-    <Testimonial/>
-    </Layout>
+    // <Layout pageTitle="jariyah-">
+    // <Navbar/>
+    // <Banner/>
+    // <Brands/>
+    // <Services />
+    // <FeaturesOne />
+    // <FeaturesTwo />
+    // <Video />
+    // <Counter />
+    // <Pricing />
+    // <Screenshots />
+    // <Footer/>
+    // <Testimonial/>
+    // </Layout>
+    <h1>On The Way</h1>
   )
 }

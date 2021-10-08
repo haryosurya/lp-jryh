@@ -21,6 +21,9 @@ import Contact from "../components/Contact";
 import CallToAction from "../components/CallToAction";
 import Footer from "../components/Footer";
 import {NextSeo} from 'next-seo';
+import P15 from '../components/nglarisi-umkm/P15';
+import P16 from '../components/nglarisi-umkm/P16';
+import P17 from '../components/nglarisi-umkm/P17';
 export default function Home() {
   if (typeof window !== 'undefined') {
     const hostname = window.location.hostname;
@@ -60,16 +63,20 @@ const origin = typeof window !== 'undefined' && window.location.origin ? window.
       cardType: 'summary_large_image',
       }}
     />
-
-    <Navbar
+    {/* <Navbar
+    
+    /> */}
+    <P11
     logo = "/img/logo/jariyah-full-logo.png"
     />
-    <P11/>
     <P12/>
     <P13/>
     <P14/>
-    <Services />
-    <FeaturesOne />
+    <P15/>
+    <P16/>
+    <P17/>
+    {/* <FeaturesOne /> */}
+    {/* <Services />
     <FeaturesTwo />
     <Video />
     <Counter />
@@ -79,9 +86,10 @@ const origin = typeof window !== 'undefined' && window.location.origin ? window.
     <Brands />
     <Faq />
     <BlogHome />
-    <Contact />
-    <CallToAction />
-    <Footer />
+  */}
+  {/* <Contact /> */}
+  {/* <CallToAction /> */}
+    {/* <Footer /> */}
     </Layout>
   )
 }

@@ -23,7 +23,7 @@ const P13 = () => {
                                                     </div>
                                                 </div>
 
-                                                <a href="#contact" className="thm-btn cta-three__btn">Donasi Sekarang</a>
+                                                <a href="#contact" className="thm-btn banner-one__btn scroll-to-target">Donasi Sekarang</a>
                                             </div>
 
                                         </div>
