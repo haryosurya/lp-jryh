@@ -1,6 +1,7 @@
 import React,{ useState } from 'react';
 import Swiper from 'react-id-swiper';
-import 'swiper/css/swiper.css';
+import 'swiper/swiper-bundle.min.css'
+import 'swiper/swiper.min.css'
 
 const Testimonial = () => {
 

@@ -1,4 +1,5 @@
 import React,{ Component } from 'react';
+import ReactDOM from 'react-dom';
 import ModalVideo from 'react-modal-video';
 
 export default class Video extends Component {
@@ -7,6 +8,7 @@ export default class Video extends Component {
         this.state = {
             isOpen: false
         }
+        
     }
 
     openModal = () => {

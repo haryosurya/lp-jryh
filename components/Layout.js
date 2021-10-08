@@ -5,20 +5,26 @@ const Layout = (props) => {
     return(
         <div>
             <Head>
-                <title>{props.pageTitle}</title>
+                {/* <title>{props.pageTitle}</title>
                 <meta charSet="utf-8" />
+                <meta name="description" content={props.desc} />
+                <meta property="og:type" content="website" />
+                <meta name="og:title" property="og:title" content={props.pageTitle} />
+                <meta name="og:description" property="og:description" content={props.desc} />
+                <meta property="og:site_name" content={window.location.href + "//" + window.location.hostname } />
+                <meta property="og:url" content={window.location.href} />  
+                <meta name="twitter:card" content="summary" /> 
+                <meta name="twitter:title" content={props.pageTitle} />
+                <meta name="twitter:description" content={props.desc}/>
+                <meta name="twitter:site" content={window.location.href} />
+                <meta name="twitter:creator" content={props.creator} />
+                <meta property="og:image" content={props.largeimage} />  
+                <meta name="twitter:image" content={props.largeimage} />   
+                <link rel="canonical" href={window.location.href} /> */}
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-                <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png" />
-                <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png" />
-                <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png" />
-
-                <link rel="stylesheet" type="text/css" href="/assets/css/bootstrap.min.css" />
-                <link rel="stylesheet" type="text/css" href="/assets/css/animate.min.css" />
-                <link rel="stylesheet" type="text/css" href="/assets/css/fontawesome-all.min.css" />
-                <link rel="stylesheet" type="text/css" href="/assets/css/zimed-icon.css" />
-                <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
-                <link rel="stylesheet" type="text/css" href="/assets/css/responsive.css" />
-
+                <link rel="apple-touch-icon" sizes="180x180" href={props.icons} />
+                <link rel="icon" type="image/png" sizes="32x32" href={props.icons} />
+                <link rel="icon" type="image/png" sizes="16x16" href={props.icons} />
             </Head>
 
             <div className="page-wrapper">

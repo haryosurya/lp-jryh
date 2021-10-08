@@ -1,9 +1,9 @@
-@import "../styles/assets/css/responsive.css";
-@import "../styles/assets/css/bootstrap.min.css";
-@import "../styles/assets/css/animate.min.css";
-@import "../styles/assets/css/fontawesome-all.min.css";
-@import "../styles/assets/css/zimed-icon.css";
-@import "../styles/assets/css/style.css";
+@import "/css/style.css";
+@import "/css/responsive.css";
+@import "/css/bootstrap.min.css";
+@import "/css/animate.min.css";
+@import "/css/fontawesome-all.min.css";
+@import "/css/zimed-icon.css";
 
 
 

@@ -129,15 +129,15 @@ export default class Footer extends React.Component {
                         <div className="side-menu__top justify-content-end">
 
                             <a href="#" className="side-menu__toggler side-menu__close-btn"><img
-                                src="assets/images/shapes/close-1-1.png" alt=""/></a>
+                                src="/images/shapes/close-1-1.png" alt=""/></a>
                         </div>
 
                         <nav className="mobile-nav__container">
 
                         </nav>
-                        <div className="side-menu__sep"></div>
+                        {/* <div className="side-menu__sep"></div> */}
 
-                        <div className="side-menu__content">
+                        {/* <div className="side-menu__content">
                             <p>Lorem Ipsum is simply dummy text the printing and setting industry. Lorm Ipsum has been
                                 the industry's stanard dummy text ever. </p>
                             <p><a href="mailto:needhelp@zimed.com">needhelp@zimed.com</a> <br/> <a
@@ -148,7 +148,7 @@ export default class Footer extends React.Component {
                                 <a className="fab fa-instagram" href="#"></a>
                                 <a className="fab fa-pinterest-p" href="#"></a>
                             </div>
-                        </div>
+                        </div> */}
 
                     </div>
 

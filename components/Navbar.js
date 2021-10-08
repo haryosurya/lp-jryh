@@ -54,18 +54,17 @@ export default class Navbar extends React.Component {
 
     render(){
         return (
-
             <div>
-
                 <header className="main-nav__header-one ">
                     <nav className={this.state.sticky ? "header-navigation stricky stricked-menu stricky-fixed" : "header-navigation stricky"}>
                         <div className="container">
                             <div className="main-nav__logo-box">
-                                
-                                <a href="/" className="main-nav__logo">
+                            <Link href="/">
+                                <a className="main-nav__logo">
                                
-                                    <img src="/images/logo-1-1.png" width="105" alt="Awesome Image"/>
+                                    <img src={this.props.logo} width="105" alt="Awesome Image"/>
                                 </a>
+                            </Link>
                                 <a href="#" className="side-menu__toggler"><i className="fa fa-bars"></i></a>
                             </div>
                             <div className="main-nav__main-navigation">
@@ -117,4 +116,5 @@ export default class Navbar extends React.Component {
 
         )
     }
+    
 }

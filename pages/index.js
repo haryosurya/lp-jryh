@@ -10,7 +10,7 @@ import Video from '../components/Video';
 import Counter from '../components/Counter';
 import Pricing from '../components/Pricing';
 import Screenshots from '../components/Screenshots';
-// import Testimonial from "../components/Testimonial";
+import Testimonial from "../components/Testimonial";
 import Brands from "../components/Brands";
 import Faq from "../components/Faq";
 import BlogHome from "../components/BlogHome";
@@ -24,7 +24,7 @@ import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <Layout pageTitle="jariyah">
+    <Layout pageTitle="jariyah-">
     <Navbar/>
     <Banner/>
     <Brands/>
@@ -36,6 +36,7 @@ export default function Home() {
     <Pricing />
     <Screenshots />
     <Footer/>
+    <Testimonial/>
     </Layout>
   )
 }
