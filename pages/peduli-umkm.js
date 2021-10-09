@@ -24,10 +24,14 @@ import {NextSeo} from 'next-seo';
 import P15 from '../components/nglarisi-umkm/P15';
 import P16 from '../components/nglarisi-umkm/P16';
 import P17 from '../components/nglarisi-umkm/P17';
+
+
+
 export default function Home() {
   if (typeof window !== 'undefined') {
     const hostname = window.location.hostname;
  }
+ 
 const hostname = typeof window !== 'undefined' && window.location.hostname ? window.location.hostname : '';
 const origin = typeof window !== 'undefined' && window.location.origin ? window.location.origin : '';
 
