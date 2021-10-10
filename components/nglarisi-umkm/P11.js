@@ -4,7 +4,6 @@ import Image from 'next/image';
 import ModalVideo from 'react-modal-video';
 
 
-
 /* // const P11 = () =>  */
 export default class P11 extends Component{
 
@@ -23,16 +22,16 @@ export default class P11 extends Component{
 
     return(
         <section className="banner-one" id="banner" style={{backgroundImage: `url(/img/gmb/wave.svg)`}}>
-            <img src="/images/shapes/banner-shapes-1-1.png" alt="" className="banner-one__shape-1" />
+            {/* <img src="/images/shapes/banner-shapes-1-1.png" alt="" className="banner-one__shape-1" />
             <img src="/images/shapes/banner-shapes-1-2.png" alt="" className="banner-one__shape-2" />
             <img src="/images/shapes/banner-shapes-1-4.png" alt="" className="banner-one__shape-4" />
             <img src="/images/shapes/banner-shapes-1-5.png" alt="" className="banner-one__shape-5" />
             <img src="/images/shapes/banner-shapes-1-6.png" alt="" className="banner-one__shape-6" />
-            <img src="/images/shapes/banner-shapes-1-7.png" alt="" className="banner-one__shape-7" />
+            <img src="/images/shapes/banner-shapes-1-7.png" alt="" className="banner-one__shape-7" /> */}
             <div className="container">
+            <div className=" container">
                 <img src={this.props.logo} width="200" alt="Awesome Image"/>
             </div>
-            <div className="container">
                 {/* <img src="/images/shapes/banner-shapes-1-3.png" alt="" className="banner-one__shape-moc-1"/> */}
                 <div className="wow fadeInUp banner-one__moc" data-wow-duration="1500ms">
 

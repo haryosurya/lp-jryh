@@ -40,7 +40,6 @@ const P14 = () => {
     return (
 
         <section className="" id="blog">
-            <img src="/images/shapes/blog-shape-1-1.png" alt="" className="blog-one__shape-1"/>
                 <div className="container">
                     <div className="block-title text-center">
                         <span className="block-title__bubbles"></span>
