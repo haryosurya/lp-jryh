@@ -1,33 +1,43 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills.js"
+    "static/chunks/polyfills-a40ef1678bae11e696dba45124eadd70.js"
   ],
-  "devFiles": [
-    "static/chunks/react-refresh.js"
-  ],
-  "ampDevFiles": [
-    "static/chunks/webpack.js",
-    "static/chunks/amp.js"
-  ],
+  "devFiles": [],
+  "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js"
+    "static/hx9DBIR93tCwwn_JU_IHc/_buildManifest.js",
+    "static/hx9DBIR93tCwwn_JU_IHc/_ssgManifest.js"
   ],
   "pages": {
+    "/": [
+      "static/chunks/webpack-f47d69457824065d04c3.js",
+      "static/chunks/framework-0441fae7fd130f37dee1.js",
+      "static/chunks/main-8d15616dad332ac01c02.js",
+      "static/css/8f38cc1f727c19bfe644.css",
+      "static/chunks/543-cb06955153df5aef533c.js",
+      "static/chunks/pages/index-74d57f88cc6f901ca518.js"
+    ],
     "/_app": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_app.js"
+      "static/chunks/webpack-f47d69457824065d04c3.js",
+      "static/chunks/framework-0441fae7fd130f37dee1.js",
+      "static/chunks/main-8d15616dad332ac01c02.js",
+      "static/css/c5750972a3252e6d9528.css",
+      "static/chunks/pages/_app-d7290c44ddd8030780d5.js"
     ],
     "/_error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_error.js"
+      "static/chunks/webpack-f47d69457824065d04c3.js",
+      "static/chunks/framework-0441fae7fd130f37dee1.js",
+      "static/chunks/main-8d15616dad332ac01c02.js",
+      "static/chunks/pages/_error-737a04e9a0da63c9d162.js"
     ],
     "/peduli-umkm": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/peduli-umkm.js"
+      "static/chunks/webpack-f47d69457824065d04c3.js",
+      "static/chunks/framework-0441fae7fd130f37dee1.js",
+      "static/chunks/main-8d15616dad332ac01c02.js",
+      "static/css/8f38cc1f727c19bfe644.css",
+      "static/chunks/543-cb06955153df5aef533c.js",
+      "static/chunks/856-1963787bedfccc7f54d9.js",
+      "static/chunks/pages/peduli-umkm-963bd61ecbd878971ea9.js"
     ]
   },
   "ampFirstPages": []
