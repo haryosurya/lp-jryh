@@ -141,6 +141,11 @@
 }
 
 @media(max-width: 625px) {
+    .cta-three {
+        /* position: relative; */
+        padding-bottom: 00px;
+        /* padding-top: 100px; */
+    }
     .site-footer__bottom .inner-container {
         flex-direction: column;
         align-items: center;
