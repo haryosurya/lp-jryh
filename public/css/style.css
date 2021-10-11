@@ -1105,7 +1105,7 @@ h6 {
 .cta-one {
 	position: relative;
 	background-color: #fff;
-	z-index: 10;
+	/* z-index: 1; */
 	padding-top: 65px;
 }
 
@@ -3802,4 +3802,8 @@ h6 {
 
 html {
   scroll-behavior: smooth;
+}
+
+.wabtns{
+	z-index: 100;
 }

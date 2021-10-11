@@ -6,26 +6,13 @@ import P11 from '../components/nglarisi-umkm/P11';
 import P12 from '../components/nglarisi-umkm/P12';
 import P13 from '../components/nglarisi-umkm/P13';
 import P14 from '../components/nglarisi-umkm/P14';
-import Services from '../components/Services';
-import FeaturesOne from '../components/FeaturesOne';
-import FeaturesTwo from '../components/FeaturesTwo';
-import Video from '../components/Video';
-import Counter from '../components/Counter';
-import Pricing from '../components/Pricing';
-import Screenshots from '../components/Screenshots';
-import Testimonial from "../components/Testimonial";
-import Brands from "../components/Brands";
-import Faq from "../components/Faq";
-import BlogHome from "../components/BlogHome";
-import Contact from "../components/Contact";
-import CallToAction from "../components/CallToAction";
-import Footer from "../components/Footer";
 import {NextSeo} from 'next-seo';
 import P15 from '../components/nglarisi-umkm/P15';
 import P16 from '../components/nglarisi-umkm/P16';
 import P17 from '../components/nglarisi-umkm/P17';
-
-
+import FloatingWhatsapp from 'react-floating-whatsapp';
+import Images from 'next/image';
+import imwa from '../public/img/logo/cs.svg';
 
 export default function Home() {
   if (typeof window !== 'undefined') {
@@ -34,7 +21,7 @@ export default function Home() {
  
 const hostname = typeof window !== 'undefined' && window.location.hostname ? window.location.hostname : '';
 const origin = typeof window !== 'undefined' && window.location.origin ? window.location.origin : '';
-
+const css = "z-index:1;";
   return (
     <Layout 
       desc="wakaf air untuk kebaikan ummat" 
@@ -79,6 +66,18 @@ const origin = typeof window !== 'undefined' && window.location.origin ? window.
     <P15/>
     <P16/>
     <P17/>
+    <FloatingWhatsapp
+    className = 'wabtns'
+    phoneNumber="621326226775"
+    accountName="Customer Support Jariyah"
+    allowClickAway
+    notification
+    statusMessage ="Online"
+    notificationDelay={60000} // 1 minute
+    notificationSound
+    chatMessage="Assalamualaikum, Ada yang bisa Kami bantu?"
+    avatar = {imwa}
+    />
     {/* <FeaturesOne /> */}
     {/* <Services />
     <FeaturesTwo />
