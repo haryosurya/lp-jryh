@@ -26,7 +26,6 @@ const Layout = (props) => {
                 <link rel="apple-touch-icon" sizes="180x180" href={props.icons} />
                 <link rel="icon" type="image/png" sizes="32x32" href={props.icons} />
                 <link rel="icon" type="image/png" sizes="16x16" href={props.icons} />
-                <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 
             </Head>
 

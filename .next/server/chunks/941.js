@@ -40,11 +40,6 @@ const Layout = props => {
         type: "image/png",
         sizes: "16x16",
         href: props.icons
-      }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("link", {
-        rel: "stylesheet",
-        type: "text/css",
-        media: "screen",
-        href: "style.css"
       })]
     }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx("div", {
       className: "page-wrapper",

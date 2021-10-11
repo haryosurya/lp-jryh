@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/PZCdUdDinLenwudfHLWnV/_buildManifest.js",
-    "static/PZCdUdDinLenwudfHLWnV/_ssgManifest.js"
+    "static/q3EfvmNBZf3huihby53X3/_buildManifest.js",
+    "static/q3EfvmNBZf3huihby53X3/_ssgManifest.js"
   ],
   "pages": {
     "/": [
@@ -15,7 +15,7 @@
       "static/chunks/main-8d15616dad332ac01c02.js",
       "static/chunks/126-8e5bb922d4972b6f03ab.js",
       "static/css/8f38cc1f727c19bfe644.css",
-      "static/chunks/pages/index-452bfd2e3a6ad384f523.js"
+      "static/chunks/pages/index-6ca0a44730a36425ca31.js"
     ],
     "/_app": [
       "static/chunks/webpack-c55016c0272c45d30a59.js",
@@ -37,7 +37,7 @@
       "static/chunks/b64f6ab7-629816a710573cf74aac.js",
       "static/chunks/126-8e5bb922d4972b6f03ab.js",
       "static/chunks/856-1963787bedfccc7f54d9.js",
-      "static/chunks/621-bef65ec1d4b477778246.js",
+      "static/chunks/621-ddbad4a7db53e6a16d7f.js",
       "static/css/ff870e086914cbae9e0d.css",
       "static/chunks/pages/peduli-umkm-e5427996fc6b882733fd.js"
     ],
@@ -48,9 +48,9 @@
       "static/chunks/b64f6ab7-629816a710573cf74aac.js",
       "static/chunks/126-8e5bb922d4972b6f03ab.js",
       "static/chunks/856-1963787bedfccc7f54d9.js",
-      "static/chunks/621-bef65ec1d4b477778246.js",
-      "static/chunks/pages/wakaf-air-aac6e2ad07c4c426c7bb.js",
-      "static/css/ff870e086914cbae9e0d.css"
+      "static/chunks/621-ddbad4a7db53e6a16d7f.js",
+      "static/css/ff870e086914cbae9e0d.css",
+      "static/chunks/pages/wakaf-air-aac6e2ad07c4c426c7bb.js"
     ]
   },
   "ampFirstPages": []
