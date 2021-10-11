@@ -5,8 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "cross-env NODE_ENV=production node server.js",
+    "lint": "next lint",
+    "export": "yarn build && next export"
   },
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",

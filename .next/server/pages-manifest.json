@@ -1,6 +1,10 @@
 {
   "/_app": "pages/_app.js",
+  "/api/hello": "pages/api/hello.js",
+  "/": "pages/index.html",
+  "/peduli-umkm": "pages/peduli-umkm.html",
+  "/wakaf-air": "pages/wakaf-air.html",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/peduli-umkm": "pages/peduli-umkm.js"
+  "/404": "pages/404.html"
 }

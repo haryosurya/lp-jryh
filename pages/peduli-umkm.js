@@ -1,5 +1,4 @@
-// import Head from 'next/head'
-// import Image from 'next/image'
+
 import Layout from '../components/Layout';
 import Navbar from '../components/Navbar';
 import P11 from '../components/nglarisi-umkm/P11';
@@ -14,7 +13,7 @@ import FloatingWhatsapp from 'react-floating-whatsapp';
 import Images from 'next/image';
 import imwa from '../public/img/logo/cs.svg';
 
-export default function Home() {
+export default function PeduliUMKM() {
   if (typeof window !== 'undefined') {
     const hostname = window.location.hostname;
  }
@@ -78,21 +77,7 @@ const css = "z-index:1;";
     chatMessage="Assalamualaikum, Ada yang bisa Kami bantu?"
     avatar = {imwa}
     />
-    {/* <FeaturesOne /> */}
-    {/* <Services />
-    <FeaturesTwo />
-    <Video />
-    <Counter />
-    <Pricing />
-    <Screenshots />
-    <Testimonial />
-    <Brands />
-    <Faq />
-    <BlogHome />
-  */}
-  {/* <Contact /> */}
-  {/* <CallToAction /> */}
-    {/* <Footer /> */}
+
     </Layout>
   )
 }
